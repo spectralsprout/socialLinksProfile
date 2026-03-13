@@ -1,0 +1,57 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+    --Black: #000000;
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(/assets/fonts/static/Inter-Bold.ttf)
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url(/assets/fonts/static/Inter-SemiBold.ttf)
+}
+
+body {
+    background-color: var(--Black);
+}
+
+.profileContainer {
+    background-color: var(--Grey800);
+}
+
+h1 {
+    font-family: InterSemiBold;
+    color: var(--White);
+}
+
+.location {
+    font-family: InterBold;
+    color: var(--Green);
+}
+
+.bio {
+    font-family: InterRegular;
+    color: var(--White);
+}
+
+li {
+    font-family: InterBold;
+    list-style-type: none;
+    background-color: var(--Grey700);
+}
+
+li a {
+    text-decoration: none;
+    color: var(--White);
+}
