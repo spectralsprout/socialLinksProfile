@@ -116,6 +116,11 @@ li a:hover {
     color: var(--Black);
 }
 
+li a:focus {
+    background-color: var(--Green);
+    color: var(--Black);
+}
+
 .attribution { 
     font-family: InterRegular;
     font-size: .6875rem;
