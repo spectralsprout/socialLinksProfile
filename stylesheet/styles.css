@@ -22,36 +22,94 @@
     src: url(/assets/fonts/static/Inter-SemiBold.ttf)
 }
 
+@media screen and (orientation: portrait) and (max-width: 480px) {
+
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--Black);
+    text-align: center;
 }
 
 .profileContainer {
+    width: 380px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--Grey800);
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 h1 {
     font-family: InterSemiBold;
+    font-size: 1.75rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
     color: var(--White);
 }
 
 .location {
     font-family: InterBold;
+    font-size: .95rem;
     color: var(--Green);
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
 
 .bio {
     font-family: InterRegular;
+    font-size: .90rem;
     color: var(--White);
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style-type: none;
 }
 
 li {
-    font-family: InterBold;
-    list-style-type: none;
+    padding: 15px 95px;
+    margin-bottom: 15px;
+    border-radius: 7px;
     background-color: var(--Grey700);
 }
 
 li a {
+    font-family: InterBold;
+    font-size: 1rem;
     text-decoration: none;
     color: var(--White);
 }
+
+.attribution { 
+    font-family: InterRegular;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+
+.attribution a { 
+    font-family: InterRegular;
+    color: white; 
+}
+    
+}
+
+@media screen and (orientation: landscape) and (max-width: 1440px){
+    
+}
+
