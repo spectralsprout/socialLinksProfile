@@ -29,6 +29,8 @@ body {
     justify-content: center;
     background-color: var(--Black);
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .profileContainer {
@@ -92,18 +94,26 @@ ul {
 
 li {
     width: 100%;
+    
+    
+}
+
+li a {
+    display: block;
     margin-bottom: .9375rem;
     padding-top: .625rem;
     padding-bottom: .625rem;
     border-radius: 7px;
-    background-color: var(--Grey700);
-}
-
-li a {
     font-family: InterBold;
     font-size: .75rem;
     text-decoration: none;
     color: var(--White);
+    background-color: var(--Grey700);
+}
+
+li a:hover {
+    background-color: var(--Green);
+    color: var(--Black);
 }
 
 .attribution { 
