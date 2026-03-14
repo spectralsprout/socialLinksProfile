@@ -9,17 +9,17 @@
 
 @font-face {
     font-family: InterRegular;
-    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    src: url(assets/fonts/static/Inter-Regular.ttf);
 }
 
 @font-face {
     font-family: InterBold;
-    src: url(./assets/fonts/static/Inter-Bold.ttf)
+    src: url(assets/fonts/static/Inter-Bold.ttf)
 }
 
 @font-face {
     font-family: InterSemiBold;
-    src: url(./assets/fonts/static/Inter-SemiBold.ttf)
+    src: url(assets/fonts/static/Inter-SemiBold.ttf)
 }
 
 body {
