@@ -46,16 +46,15 @@ Users should be able to:
 I learned to use relative units to increase responsiveness across devices.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.profileContainer {
+    width: 75%;
+    margin-top: 3.125rem;
 }
 ```
 I learned to use media queries to target breakpoints to increase responsiveness across devices.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+@media screen and (min-width: 768px)
 ```
 
 ### Continued development
@@ -64,8 +63,8 @@ I would like to continue learning about mobile first workflow and building respo
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/css/css3_mediaqueries.asp) - This helped me learn about how to use media queries.
-- [Example resource 2](https://www.w3schools.com/cssref/css_units.php) - I used this as a reference when deciding what units to use for different measurements.
+- [W3Schools Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp) - This helped me learn about how to use media queries.
+- [W3Schools CSS Units](https://www.w3schools.com/cssref/css_units.php) - I used this as a reference when deciding what units to use for different measurements.
 
 ### AI Collaboration
 
